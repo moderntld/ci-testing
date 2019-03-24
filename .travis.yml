@@ -4,4 +4,6 @@ addons:
   apt:
     packages:
     - bind9
-script: /bin/bash test_zones.sh
+script:
+- /bin/bash verify_domains.sh
+- /bin/bash test_zones.sh
