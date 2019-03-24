@@ -1,2 +1,0 @@
-bad-zone  IN  A ns1.nameserver.com.
-bad-zone  IN  CNAME 1.2.3.4
