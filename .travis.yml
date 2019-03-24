@@ -1,0 +1,7 @@
+dist: xenial
+language: minimal
+addons:
+  apt:
+    packages:
+    - bind9
+script: /bin/bash test_zones.sh
